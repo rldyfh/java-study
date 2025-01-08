@@ -16,7 +16,11 @@ public class Student {
         student1.age = 16;
         student1.grade = 3;
 
-        System.out.println(student1);
-    }
+        Student[] students = new Student[] {student1};
+        Student[] students1 = { student1 }; // 이렇게도 사용 가능하다.
 
+
+
+
+    }
 }
